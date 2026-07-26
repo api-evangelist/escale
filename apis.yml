@@ -1,8 +1,26 @@
 aid: escale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/escale.png
 name: Escale
-description: 'Escale is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Escale is a Sao Paulo-based sales technology company founded in 2013 that builds aisa,
+  an AI sales agent trained on millions of real sales conversations. aisa automates lead qualification,
+  objection handling, deal personalization, and sales closure across text and voice channels for
+  enterprise brands in financial services, banking, telecommunications, automotive finance, and
+  education. Escale manages the full customer-acquisition funnel from demand generation through
+  closing, having processed over 7 million leads and generated more than R$2.1 billion in GMV. The
+  company was surfaced as a portfolio company of QED Investors and added to the API Evangelist
+  network; it publishes no public developer API, so this profile captures its corporate identity,
+  trust/compliance posture, and legal properties rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/escale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Sales
+- Artificial Intelligence
+- Customer Acquisition
+- Conversational AI
+- Marketing
+- Brazil
 - Fintech
 apis: []
 maintainers:
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/escale-domain-security.yml
 - type: Website
-  url: https://www.escale.com.br/
+  url: https://escale.ai/
+- type: TrustCenter
+  url: https://escale.ai/trust-center
+- type: TrustCenter
+  url: security/escale-trust-center.yml
+- type: Compliance
+  url: https://escale.ai/trust-center
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/679d467e1ba7f0477be7d60e/6a0388258890962dc07857b1_TERMOS%20DE%20USO%20DA%20PLATAFORMA%20v%2011%2005%202026.docx.pdf
+- type: PrivacyPolicy
+  url: https://escale.ai/portal-de-privacidade
+- type: Support
+  url: https://escale.ai/contato
+- type: Login
+  url: https://plataforma.escale.com.br/signin
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

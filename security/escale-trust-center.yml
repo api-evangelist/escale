@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://escale.ai/trust-center
+certifications:
+- CSA STAR Level 1
+- LGPD
+- BACEN CMN 4.893/2021
+- NIST 800-61 Rev2
+in_progress_certifications:
+- ISO/IEC 27001
+- ISO/IEC 27701
+- ISO/IEC 27018
+program:
+  dpo: Ammina Rachid
+  dpo_contact: dpo@escale.com.br
+  controls:
+  - risk management and access governance
+  - privacy program with data mapping and consent management
+  - incident management with continuous event monitoring
+  - vulnerability management with automated scanning
+  - application security via code review and testing
+  - data protection with encryption, firewalls, and DLP
+  - responsible AI governance with anti-hallucination safeguards and human review
+  subprocessors:
+  - AWS
+  - Meta/WhatsApp
+  - OpenAI
+  - Anthropic
+  - Google
+evidence:
+- source: https://escale.ai/trust-center
+  keywords: [csa star, lgpd, bacen, nist 800-61, trust center, iso 27001]
